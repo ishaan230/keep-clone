@@ -32,7 +32,7 @@ function CreateArea(prop) {
 
   return (
     <div>
-      <form>
+      <form className="form-class">
         <input name="title" placeholder="Title" value={notes.title} onChange={inputChange} />
         <textarea name="content" placeholder="Take a note..." rows="3" onChange={inputChange} value={notes.content} />
         <button onClick={handleSubmit} type="submit">Add</button>
